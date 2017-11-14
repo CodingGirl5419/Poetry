@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("blue design copy.png");
+  background-image: cover;
+}
+
+h1.cursive {
+  font-family: "cursive", cursive;
+  color: white;
+  font-size: 230px;
+}
+
+h2.monospace {
+  font-family: "monospace", monospace;
+  color: white;
+}
+
+p.monospace {
+  font-family: "monospace", monospace;
+  color: white;
+}
+
+a.monospace {
+  font-family: "monospace", monospace;
+  color: white;
+}
+
+/* Style the header */
+.header {
+    background-image: url("colorful clouds copy.png");
+    background-image: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Lilac copy.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("purple design copy.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div span {
+  color: white;
+  text-align: center;
+  background: rgb(40, 30, 70);
+  background: rgba(20, 80, 60, 0.5);
+  padding: 10px;
+  border-radius: 200%;
+}
+
+#header {
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+  font-size: 100px;
+  text-align: center;
+  font-family: "cursive", cursive;
+  color: white;
+}
+
+#poems a:hover {color: purple;}
+
+#poems {
+    font-family: "monospace", monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#poems td, #poems th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+}
+
+#poems th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: purple;
+    color: white;
