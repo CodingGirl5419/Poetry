@@ -105,6 +105,29 @@ div span {
   border-radius: 200%;
 }
 
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#table {
+    border-collapse: collapse;
+    color: white;
+    font-family: "monospace", monospace;
+}
+
 #header {
   z-index: 1000;
   top: 200px;
